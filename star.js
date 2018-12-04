@@ -49,9 +49,9 @@ cardMaker(starships)
 function spaceship(name, model, ship_class, crew, hdr){
     this.name = name
     this.model = model
-    this.class = ship_class
+    this.starship_class = ship_class
     this.crew = crew
-    this.hdr = hdr
+    this.hyperdrive_rating = hdr
 }
 
 let ent = new spaceship("Enterprise", "Constitution", "Cruiser", "250", "<10")
