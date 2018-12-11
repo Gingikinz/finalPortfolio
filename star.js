@@ -1,6 +1,6 @@
 import { starships } from './assets/starships.js';
 
-console.log(starships)
+//console.log(starships)
 
 const shipContainer = document.querySelector('#container')
 
@@ -62,8 +62,6 @@ let ser = new newShip("Serenity", "Firefly", "Class B Medium Transport", "5", "U
 let and = new newShip("Andromeda Ascendant", "Glorious Heritage", "Large Battlecruiser", "4500", "Slipstream Navigation")
 let pro = new newShip("Prometheus", "X-303", "Tau'ri Cruiser", "115", "Asguard Hyperdrive")
 
-//console.log(ent)
-//Add more to this.
 const fed = [
     ent,
     ser,
