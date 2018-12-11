@@ -87,19 +87,3 @@ bon.addEventListener('click', () => {
     //if count === 4:
     //have this do one spaceship at a time.
 });
-
-const largestCrewSize = starships.reduce((largest, crewSize) => {
-    return (largest.crew || 0) > crewSize.crew ? largest : crewSize;
-}, {});
-
-let bom = document.createElement("button");
-bom.innerHTML = "Biggest Crew compliment?";
-
-var location = document.getElementById("newCardButton")
-location.appendChild(bom)
-
-bon.addEventListener('click', () => {
-    alert(largestCrewSize)
-});
-
-//Button that will filer/map by alphabetical order, one by crew capacity, maybe one by speed, and original.
