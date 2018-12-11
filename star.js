@@ -46,7 +46,7 @@ shipContainer.appendChild(card)
 
 cardMaker(starships)
 
-//use arrow function here:
+
 class newShip {
     constructor(name, model, ship_class, crew, hdr) {
         this.name = name;
@@ -56,8 +56,7 @@ class newShip {
         this.hyperdrive_rating = hdr;
     }
 }
-//ES6 style objects: made via classes. see codepen for the javascript examples we made.
-//add more objects. Make an array from new spaceship objects: will be more convincing.
+
 let ent = new newShip("Enterprise", "Constitution", "Cruiser", "250", "<10")
 let ser = new newShip("Serenity", "Firefly", "Class B Medium Transport", "5", "Unknown")
 let and = new newShip("Andromeda Ascendant", "Glorious Heritage", "Large Battlecruiser", "4500", "Slipstream Navigation")
@@ -71,8 +70,6 @@ const fed = [
     and,
     pro
 ]
-//make more spaceships here. need more than one thing in an array to be convincing. Needs more of a purpose
-//Use more arrays: more meaningful. Make more star trek options to show up with the button: 
 
 //looking for iteration of arrays: need to add filter-map-reduce.
 //ie the harry potter project: sort by something.
@@ -91,14 +88,18 @@ bon.addEventListener('click', () => {
     //have this do one spaceship at a time.
 });
 
+const largestCrewSize = starships.reduce((largest, crewSize) => {
+    return (largest.crew || 0) > crewSize.crew ? largest : crewSize;
+}, {});
+
 let bom = document.createElement("button");
-bom.innerHTML = "Crew Size Order";
+bom.innerHTML = "Biggest Crew compliment?";
 
 var location = document.getElementById("newCardButton")
 location.appendChild(bom)
 
 bon.addEventListener('click', () => {
-    
+    alert(largestCrewSize)
 });
 
 //Button that will filer/map by alphabetical order, one by crew capacity, maybe one by speed, and original.
