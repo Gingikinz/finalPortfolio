@@ -10,6 +10,7 @@ star.css, line 12, 24
 star.js
 
 
+
 Javascript Code:
 
 Variables:
