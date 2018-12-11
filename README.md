@@ -1,7 +1,7 @@
 # finalPortfolio
 This is the final for CS-1600
 
-CSS Flexbox: 
+--CSS Flexbox: 
 
 main.css, line 19.
 
@@ -9,9 +9,7 @@ star.css, line 12, 24
 
 star.js
 
-
-
-Javascript Code:
+--Javascript Code:
 
 Variables:
 
@@ -24,7 +22,7 @@ Array Usage: line 68
 Custom JS Objects: lines 61-64
 
 
-ES6:
+--ES6:
 
 Let/const: line 5, 25-29..., 68
 
@@ -37,7 +35,7 @@ Objects: lines 61-64
 Import/export: line 1
 
 
-Data Structures:
+--Data Structures:
 
 Arrays: line 9, 68
 
@@ -46,7 +44,7 @@ Object/Key-Value Pairs: lines 52-56
 Iteration: line 9, 
 
 
-Object Oriented Programming:
+--Object Oriented Programming:
 
 Dot notation: lines 52-56
 
